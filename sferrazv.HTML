@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сталинская эпоха: власть и судьбы</title>
+    <link rel="stylesheet" href="sferrazv.CSS">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+
+<body>
+
+
+<header>
+    <div class="container">
+
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="bio.html">Биография вождя</a>
+        <a href="sferrazv.HTML">Сферы развития</a>
+        <a href="timeline.html">Лента времени</a>
+        <a href="text.html">Тест</a>
+      </nav>
+      
+        <div class="logo">
+            <img  src="img/ЛОГО.png" alt="логотип сайта" >
+        </div>
+
+        <hr class="otd_nav">
+
+    </div>
+
+    <div class="header-content">
+      <H1>СССР: ВРЕМЯ ПЕРЕМЕН</H1>
+      <h4><i>«Мы рождены, чтоб сказку сделать былью»</i></h4>
+    </div>
+
+</header>
+
+<div class="cards-container">
+
+<div class="card" onclick="openModal('modal1')">
+    <div class="card-bg" style="background-image: url('img/наука.png');">
+        <h3>Наука СССР</h3>
+    </div>
+</div>
+
+<div class="card" onclick="openModal('modal2')">
+    <div class="card-bg" style="background-image: url('img/индустриализация.png');">
+        <h3>Индустриализация</h3>
+    </div>
+</div>
+
+<div class="card" onclick="openModal('modal3')">
+    <div class="card-bg" style="background-image: url('img/коллективизация.png');">
+        <h3>Коллективизация</h3>
+    </div>
+</div>
+
+<div class="card" onclick="openModal('modal4')">
+    <div class="card-bg" style="background-image: url('img/культура.png');">
+        <h3>Культура и искусство</h3>
+    </div>
+</div>
+
+<div class="card" onclick="openModal('modal5')">
+    <div class="card-bg" style="background-image: url('img/образование.png');">
+        <h3>Образование</h3>
+    </div>
+</div>
+
+</div>
+
+
+
+
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <p>Наука в СССР — одна из ведущих отраслей. К 1986 году — 1,5 млн учёных (четверть мировых научных кадров).</p>
+<p><strong>Главные достижения:</strong></p>
+<ul>
+<li><strong>Физика:</strong> эффект Вавилова–Черенкова (Нобелевская премия 1958), сверхтекучесть гелия (Капица, Нобелевская премия 1978), первый в Европе циклотрон (1937), первый токамак (1954).</li>
+<li><strong>Химия:</strong> теория цепных реакций Семёнова (Нобелевская премия 1956).</li>
+<li><strong>Ядерная физика:</strong> создание атомной (1949) и водородной (1953) бомб.</li>
+<li><strong>Космос:</strong> первый спутник (1957), первый полёт человека в космос (Гагарин, 1961).</li>
+<li><strong>Кибернетика:</strong> первые ЭВМ (МЭСМ, БЭСМ, «Стрела»).</li>
+</ul>
+<p>Наука была тесно связана с оборонной промышленностью и космической программой.</p>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+    
+    </div>
+</div>
+
+
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h3>Индустриализация в СССР</h3>
+        <p>Масштабный процесс форсированного наращивания промышленного потенциала СССР в 1930-е годы.</p>
+        <p><strong>Ключевые достижения:</strong></p>
+        <ul>
+            <li>Днепрогэс — крупнейшая гидроэлектростанция.</li>
+            <li>Магнитогорский металлургический комбинат (Магнитка).</li>
+            <li>Сталинградский и Харьковский тракторные заводы.</li>
+            <li>Первые пятилетки выполнены досрочно.</li>
+        </ul>
+        <p>СССР превратился из аграрной страны в индустриальную державу.</p>
+    </div>
+</div>
+
+
+<div id="modal3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal3')">&times;</span>
+        <h3>Коллективизация в СССР</h3>
+        <p>Объединение единоличных крестьянских хозяйств в коллективные (колхозы) в конце 1920-х — 1930-х годах.</p>
+        <p><strong>Основные результаты:</strong></p>
+        <ul>
+            <li>Создание колхозов и совхозов.</li>
+            <li>Раскулачивание зажиточных крестьян.</li>
+            <li>Государственный контроль над сельским хозяйством.</li>
+        </ul>
+        <p>Коллективизация позволила обеспечить продовольствием растущие города и армию.</p>
+    </div>
+</div>
+
+
+<div id="modal4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal4')">&times;</span>
+        <h3>Культура и искусство в СССР</h3>
+        <p>В сталинскую эпоху сформировался метод социалистического реализма (соцреализм).</p>
+        <p><strong>Достижения:</strong></p>
+        <ul>
+            <li><strong>Литература:</strong> Горький, Шолохов («Тихий Дон»).</li>
+            <li><strong>Кино:</strong> «Чапаев», «Весёлые ребята», «Александр Невский».</li>
+            <li><strong>Музыка:</strong> Прокофьев, Шостакович.</li>
+            <li><strong>Архитектура:</strong> сталинские высотки, московское метро.</li>
+        </ul>
+        <p>Искусство служило воспитанию советского человека и пропаганде идей.</p>
+    </div>
+</div>
+
+
+<div id="modal5" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal5')">&times;</span>
+        <h3>Образование в СССР</h3>
+        <p>Советская власть провела ликвидацию безграмотности (ликбез) — массовое обучение взрослых чтению и письму.</p>
+        <p><strong>Достижения:</strong></p>
+        <ul>
+            <li>Всеобщее обязательное начальное образование с 1930-х.</li>
+            <li>Открытие тысяч школ и вузов.</li>
+            <li>Подготовка рабочих кадров через ФЗУ (фабрично-заводские училища).</li>
+            <li>Сталинские стипендии для студентов.</li>
+        </ul>
+        <p>К концу 1930-х безграмотность в СССР была практически ликвидирована.</p>
+    </div>
+</div>
+
+
+
+<a href="#top" class="scroll-top-button">↑</a>
+
+
+<footer>
+    <div class="stopimg">
+          <img  src="img/ЛОГО.png" alt="логотип сайта" >
+      </div>
+    <div class="containerff">
+        <p>© 2026 Сталинская эпоха: власть и судьбы</p>
+        <p>Проект подготовлен с использованием открытых источников сети Интернет</p>
+        <p>Все материалы использованы в образовательных целях</p>
+    </div>
+</footer>
+
+</body>
+</html>

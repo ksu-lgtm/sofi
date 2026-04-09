@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+}
+
+
+header{
+background-image: url("./img/СМОТРИТ.png");
+background-position: center 100%;
+background-size: cover;  
+background-position: center; 
+background-repeat: no-repeat; 
+min-height: 100vh;
+border: 3px solid white;
+position: relative;
+}
+
+.header h4 {
+    position: relative;
+    left: 300px;              
+}
+
+.container .logo {
+    position: absolute;
+    top: 5px;     
+    right: 40px;     
+}
+.container .logo img {
+    width: 130px !important;     
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    height: 130px;
+
+}
+
+
+.otd_nav{
+
+  border: none;              
+  height: 1px;                 
+  background-color: #ffffff;   
+            
+  width: 100%;                 
+  margin: 20px auto;        
+}
+
+nav {
+    display: flex;          
+    gap: 22px;
+    align-items: center;           
+}
+
+nav a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    height: 100%;              
+    display: flex;
+    align-items: center;        
+    line-height: 1;             
+    padding: 0;                
+}
+
+
+.logo {
+    position: absolute;
+    top: 5px;     
+    right: 40px;     
+
+}
+.logo img{
+    width: 90px;
+    height: auto;
+}
+
+
+
+
+
+.header-content{
+  color:rgb(248, 248, 248);
+  padding: 50px 100px 200px 70px;
+}
+.header-content h1{
+    font-size: 70px;
+}
+.header-content h4{
+    font-size: 40px;
+    
+}
+
+
+
+
+body {
+    background: linear-gradient(#656a81ee, #8a7d68) no-repeat fixed;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.fotoopis{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+p {
+    font-size: 28px;
+    text-indent: 30px;
+
+}
+
+
+.text-bio{
+    flex: 1; 
+    text-justify: inter-word;
+}
+
+.text-bio h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold
+}
+
+
+
+
+.childhood{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 30px;
+    margin: 40px 180px;       
+         
+}
+
+.ych {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 40px 180px;          
+    
+}
+
+.podpol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 40px 180px;        
+    align-items: flex-start;
+}
+
+
+
+
+
+.foto-detstvo img {
+    width: 330px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foto-seminariya img {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foto-dosie img {
+    width: 500px;
+    height: auto;
+    margin-top: 40px;
+}
+
+.foto-revolyutsiya img {
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foto-grazhdanskaya img {
+    width: 350px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foto-borba img {
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foto-industrial img {
+    width: 520px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foto-terror img {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foto-pakt img {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foto-voina img {
+    width: 550px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foto-posle img {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.foto-smert img {
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+footer {
+  background-color: #333;
+  padding: 20px;
+
+  
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ 
+  gap: 700px; 
+  flex-wrap: wrap;
+}
+
+.containerff{
+    text-align: center;
+    font-size: 24px;
+}
+
+.stopimg img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+.scroll-top-button {
+    position: fixed;           
+    bottom: 40px; 
+    right: 40px;            
+    background-color: #a88931; 
+    color: white;              
+    width: 50px;               
+    height: 50px;              
+    border-radius: 50%;        
+    text-align: center;       
+    line-height: 50px;         /* выравнивает стрелку по вертикали (равно высоте кнопки) */
+    font-size: 30px;           
+    text-decoration: none;     /* убирает подчёркивание у ссылки */
+}

@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+}
+
+
+header{
+background-image: url("./img/попо.png");
+
+background-size: cover;  
+background-position: center; 
+background-repeat: no-repeat; 
+min-height: 100vh;
+border: 3px solid white;
+position: relative;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    height: 130px;
+
+}
+
+
+.otd_nav{
+
+  border: none;              
+  height: 1px;                 
+  background-color: #ffffff;   
+            
+  width: 100%;                 
+  margin: 20px auto;        
+}
+
+nav {
+    display: flex;          
+    gap: 22px;
+    align-items: center;           
+}
+
+nav a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    height: 100%;              
+    display: flex;
+    align-items: center;        
+    line-height: 1;             
+    padding: 0;                
+}
+
+
+.logo {
+    position: absolute;
+    top: 5px;     
+    right: 40px;     
+
+}
+.logo img{
+    width: 130px;
+    height: auto;
+}
+
+
+
+
+
+.header-content{
+  color:rgb(248, 248, 248);
+  padding: 50px 100px 200px 70px;
+}
+.header-content h1{
+    font-size: 70px;
+}
+.header-content h4{
+    font-size: 40px;
+    
+}
+
+.header-content h4 span{
+    margin-left: 300px;
+    font-size: 40px;
+}
+
+
+
+
+
+.intro-text p{
+    color: #000000;
+    text-align: center;
+    max-width: 900px;
+    margin: 30px auto; 
+    font-size: 28px;
+}
+
+
+
+
+
+body {
+    background: linear-gradient(#656a81, #755930) no-repeat fixed;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+
+
+
+
+
+footer {
+  background-color: #333;
+  padding: 20px;
+
+  
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ 
+  gap: 700px; 
+  flex-wrap: wrap;
+}
+
+.containerff{
+    text-align: center;
+    font-size: 24px;
+}
+
+.stopimg img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+.scroll-top-button {
+    position: fixed;           
+    bottom: 40px; 
+    right: 40px;            
+    background-color: #a88931; 
+    color: white;              
+    width: 50px;               
+    height: 50px;              
+    border-radius: 50%;        
+    text-align: center;       
+    line-height: 50px;         /* выравнивает стрелку по вертикали (равно высоте кнопки) */
+    font-size: 30px;           
+    text-decoration: none;     /* убирает подчёркивание у ссылки */
+}
+
+
+
+
+
+.test-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;              
+    flex-direction: column;   
+    gap: 30px;   
+  
+}
+
+
+.questions-block { 
+    gap:30px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+
+.question {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.option-btn {
+    background: #2a2a2a;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+}
+
+
+.option-btn input {
+    display: none;
+}
+
+
+.option-btn:has(input:checked) {
+    background: #a88931;
+}
+
+
+.answer {
+    display: none;
+    padding: 15px 20px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #222;
+}
+
+.questions-block:has(input[value="dvoryani"]:checked) .answer.dvoryani {
+    display: block;
+}
+.questions-block:has(input[value="krestiani"]:checked) .answer.krestiani {
+    display: block;
+}
+
+
+.questions-block:has(input[value="molcha"]:checked) .answer.molcha {
+    display: block;
+}
+.questions-block:has(input[value="poddak"]:checked) .answer.poddak {
+    display: block;
+}
+
+
+.questions-block:has(input[value="piu"]:checked) .answer.piu {
+    display: block;
+}
+.questions-block:has(input[value="govoru"]:checked) .answer.govoru {
+    display: block;
+}
+
+
+.questions-block:has(input[value="zhilcy"]:checked) .answer.zhilcy {
+    display: block;
+}
+.questions-block:has(input[value="moya"]:checked) .answer.moya {
+    display: block;
+}
+
+
+
+
+
+.questions-block:has(input[value="nablyudau"]:checked) .answer.nablyudau {
+    display: block;
+}
+.questions-block:has(input[value="vopros"]:checked) .answer.vopros {
+    display: block;
+}
+
+.questions-block:has(input[value="simul"]:checked) .answer.simul {
+    display: block;
+}
+.questions-block:has(input[value="gromko"]:checked) .answer.gromko {
+    display: block;
+}
+
+.questions-block:has(input[value="soglas"]:checked) .answer.soglas {
+    display: block;
+}
+.questions-block:has(input[value="net"]:checked) .answer.net {
+    display: block;
+}
+
+
+.questions-block:has(input[value="begu"]:checked) .answer.begu {
+    display: block;
+}
+.questions-block:has(input[value="stay"]:checked) .answer.stay {
+    display: block;
+}
