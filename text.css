@@ -114,29 +114,36 @@ body {
 
 
 footer {
-  background-color: #333;
-  padding: 20px;
-
-  
-  color: #ffffff;
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
- 
-  gap: 700px; 
-  flex-wrap: wrap;
+    background-color: #333;
+    padding: 20px 30px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 40px;
 }
 
-.containerff{
-    text-align: center;
-    font-size: 24px;
+.containerff {
+    text-align: right;
+    font-size: 16px;
+    line-height: 1.6;
+    flex: 1;
+    min-width: 280px;
+}
+
+.containerff p {
+    margin: 5px 0;
+}
+
+.stopimg {
+    flex-shrink: 0;
 }
 
 .stopimg img {
-  width: 150px;
-  height: auto;
-  display: block;
+    width: 120px;
+    height: auto;
+    display: block;
 }
 
 .scroll-top-button {

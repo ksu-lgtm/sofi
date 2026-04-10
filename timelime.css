@@ -4,7 +4,7 @@
 
 
 header{
-background-image: url("./img/пробатест.png");
+background-image: url("./img/прр.png");
 background-size: cover;  
 background-position: center; 
 background-repeat: no-repeat; 
@@ -41,7 +41,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 28px;
     text-decoration: none;
     font-family: "Times New Roman", Times, serif;
