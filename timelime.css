@@ -232,6 +232,13 @@ html {
 
 
 
+.map-hint h3 {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    font-weight: normal;
+    font-style: italic;
+}
 
 
 
