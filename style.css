@@ -201,42 +201,50 @@ a.card {
 
 
 footer {
-  background-color: #333;
-  padding: 20px;
-
-  
-  color: #ffffff;
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
- 
-  gap: 700px; 
-  flex-wrap: wrap;
+    background-color: #333;
+    padding: 20px 30px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 100%;
 }
 
-.containerff{
-    text-align: center;
-    font-size: 24px;
+.stopimg {
+    flex-shrink: 0;
 }
 
 .stopimg img {
-  width: 150px;
-  height: auto;
-  display: block;
+    width: 120px;
+    height: auto;
+    display: block;
+}
+
+.containerff {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.containerff p {
+    margin: 5px 0;
+    white-space: nowrap;
 }
 
 .scroll-top-button {
-    position: fixed;           
-    bottom: 40px; 
-    right: 40px;            
-    background-color: #a88931; 
-    color: white;              
-    width: 50px;               
-    height: 50px;              
-    border-radius: 50%;        
-    text-align: center;       
-    line-height: 50px;         /* выравнивает стрелку по вертикали (равно высоте кнопки) */
-    font-size: 30px;           
-    text-decoration: none;     /* убирает подчёркивание у ссылки */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #a88931;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    z-index: 999;
 }
