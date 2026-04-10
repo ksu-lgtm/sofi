@@ -119,17 +119,16 @@ footer {
     color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px 40px;
+    gap: 30px 60px;
 }
 
 .containerff {
-    text-align: right;
+    text-align: center;
     font-size: 16px;
     line-height: 1.6;
-    flex: 1;
-    min-width: 280px;
+    max-width: 600px;
 }
 
 .containerff p {
@@ -147,22 +146,20 @@ footer {
 }
 
 .scroll-top-button {
-    position: fixed;           
-    bottom: 40px; 
-    right: 40px;            
-    background-color: #a88931; 
-    color: white;              
-    width: 50px;               
-    height: 50px;              
-    border-radius: 50%;        
-    text-align: center;       
-    line-height: 50px;         /* выравнивает стрелку по вертикали (равно высоте кнопки) */
-    font-size: 30px;           
-    text-decoration: none;     /* убирает подчёркивание у ссылки */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #a88931;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    z-index: 999;
 }
-
-
-
 
 
 .test-container {
