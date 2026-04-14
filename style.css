@@ -229,8 +229,11 @@ footer {
 }
 
 .containerff p {
+
     margin: 5px 0;
     white-space: nowrap;
+    font-size: 16px;
+
 }
 
 .scroll-top-button {
