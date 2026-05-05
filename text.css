@@ -207,12 +207,12 @@ footer {
 }
 
 
-.option-btn input {
+.option-btn input {/*УБИРАЕМ КНОПКИ ВЫБИРАШКИ*/
     display: none;
 }
 
 
-.option-btn:has(input:checked) {
+.option-btn:has(input:checked) { /*ЕСЛИ ВЫБРАНО ТО УСТАНАВЛИВАЕМ У КНОПКИ ФОН*/
     background: #a88931;
 }
 
