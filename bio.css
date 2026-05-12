@@ -19,15 +19,7 @@ position: relative;
     left: 300px;              
 }
 
-.container .logo {
-    position: absolute;
-    top: 5px;     
-    right: 40px;     
-}
-.container .logo img {
-    width: 130px !important;     
-    height: auto;
-}
+
 
 .container{
     display: flex;
@@ -38,6 +30,21 @@ position: relative;
     height: 130px;
 
 }
+
+.logo {
+    position: absolute;
+    top: 5px;     
+    right: 40px;     
+
+}
+.logo img{
+    width: 130px;
+    height: auto;
+}
+
+
+
+
 
 
 .otd_nav{
@@ -69,17 +76,6 @@ nav a {
 }
 
 
-.logo {
-    position: absolute;
-    top: 5px;     
-    right: 40px;     
-
-}
-.logo img{
-    width: 90px;
-    height: auto;
-}
-
 
 
 
@@ -105,6 +101,8 @@ body {
     min-height: 100vh;
 
 }
+
+
 
 .fotoopis{
     text-align: center;
@@ -133,22 +131,12 @@ p {
 
 
 
-.childhood{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    gap: 30px;
-    margin: 40px 180px;       
-         
-}
 
 .ych {
     display: flex;
     flex-direction: row;
     gap: 40px;
     margin: 40px 180px;          
-    
 }
 
 .podpol {
@@ -157,7 +145,7 @@ p {
     justify-content: space-between;
     gap: 30px;
     margin: 40px 180px;        
-    align-items: flex-start;
+    align-items: flex-start; 
 }
 
 
