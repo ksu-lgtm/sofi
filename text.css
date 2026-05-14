@@ -213,12 +213,14 @@ footer {
 
 
 .option-btn:has(input:checked) { /*ЕСЛИ ВЫБРАНО ТО УСТАНАВЛИВАЕМ У КНОПКИ ФОН*/
-    background: #a88931;
+    background: #a88931; /*Найди кнопку, но только ту, у которой внутри есть выбранная радиокнопка».
+
+*/
 }
 
 
 .answer {
-    display: none;
+    display: none;/*!!! */
     padding: 15px 20px;
     margin-top: 20px;
     background: rgba(255, 255, 255, 0.9);
@@ -287,4 +289,4 @@ footer {
 }
 .questions-block:has(input[value="stay"]:checked) .answer.stay {
     display: block;
-}
+} 
